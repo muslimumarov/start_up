@@ -5,10 +5,11 @@ export default function RootlayoutRout() {
     <>
       <header>
         <nav>
-          <h1>My Article</h1>
-          <NavLink to="/">home</NavLink>
-          <NavLink to="/course">Kurslar</NavLink>
-          <NavLink to="/help">Yordam</NavLink>
+          <NavLink className={`bg-transparent`} to="/">home</NavLink>
+          <NavLink className={`bg-transparent`} to="/course">Kurslar</NavLink>
+          <NavLink className={`bg-transparent mr-[323px]`} to="/help">Yordam</NavLink>
+          <NavLink className={`bg-transparent`} to="/kirish">Kirish</NavLink>
+          <NavLink className={`bg-transparent`} to="/ro'yhat">Royhatdan otish</NavLink>
         </nav>
       </header>
       <main>

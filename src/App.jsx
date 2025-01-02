@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Help from "./pages/Help";
 import Cours from "./pages/Cours";
 import ErrorPage from "./layout/ErrorPage";
+import Login from "./pages/register/Login";
+import Register from "./pages/register/Register";
 
 
 function App() {
@@ -18,19 +20,31 @@ function App() {
           element: <Home />,
         },
         {
-          path: "article",
+          path: "course",
           element: <Cours />,
 
         },
 
         {
-          path: "about",
+          path: "help",
           element: <Help />,
+        },
+        {
+          path: "kirish",
+          element: <Login />,
+        },
+        {
+          path: "ro'yhat",
+          element: <Register />,
         },
 
       ],
     },
   ]);
-  <RouterProvider router={routes} />;
+  return (
+    <div className="App pt-[46px] mx-auto max-w-[1200px]">
+      <RouterProvider router={routes} />
+    </div>
+  );
 }
 export default App;
