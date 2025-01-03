@@ -42,7 +42,7 @@ function App() {
     },
   ]);
   return (
-    <div className="App pt-[46px] mx-auto max-w-[1200px]">
+    <div className="App pt-[24px]">
       <RouterProvider router={routes} />
     </div>
   );
