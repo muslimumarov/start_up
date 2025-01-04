@@ -6,7 +6,7 @@ export default function RootlayoutRout() {
   const toggleMenu = () => setIsOpen(!isOpen);
   return (
     <>
-      <header className="container">
+      <header className="pt-[24px]">
         <div className="grid grid-cols-3 ">
         <button
           className="flex flex-col justify-center items-center w-10 h-10  rounded-md focus:outline-none md:hidden"

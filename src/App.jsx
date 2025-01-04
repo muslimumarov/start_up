@@ -42,7 +42,7 @@ function App() {
     },
   ]);
   return (
-    <div className="App pt-[24px]">
+    <div className="App  container">
       <RouterProvider router={routes} />
     </div>
   );
