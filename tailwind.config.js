@@ -10,6 +10,10 @@ export default {
         helvetica: ['Helvetica', 'Arial', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
       },
+      screens: {
+        mobile320: '320px', // 320px uchun maxsus breakpoint
+        mobile390: '390px', // 390px uchun maxsus breakpoint
+      },
     },
   },
   plugins: [],
