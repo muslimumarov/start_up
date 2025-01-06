@@ -1,6 +1,7 @@
 export default function Home() {
   return (
-    <div className="container">
+    <>
+    <section className="container">
       <h1 className="text-[24px] sm-[40px] text-center mb-[16px] sm:mb-[24px] mt-[72px] sm:mt-[126px]">
         {" "}
         Biz bilan kasb va hunarni masofadan o&#39;rganing!
@@ -37,6 +38,10 @@ export default function Home() {
           </span>
         </li>
       </ul>
-    </div>
+    </section>
+    <section className="mb-[80px]">
+      <h2 className="text-[24px] lg:text-[36px] mb-[24px] lg:mb-[37px] text-center">Sizga kerakli barcha kurslar shu yerda</h2>
+    </section>
+    </>
   );
 }
